@@ -1,0 +1,20 @@
+# Check first 5 flights from Seattle to New York on the 5th
+
+# Commands:
+search "Seattle WA" "New York NY" 0 5 5
+quit
+*
+
+# expected command output 
+Itinerary 0: 1 flight(s), 297 minutes
+ID: 131015 Day: 5 Carrier: DL Number: 2010 Origin: Seattle WA Dest: New York NY Duration: 297 Capacity: 7 Price: 872
+Itinerary 1: 1 flight(s), 298 minutes
+ID: 722098 Day: 5 Carrier: B6 Number: 264 Origin: Seattle WA Dest: New York NY Duration: 298 Capacity: 9 Price: 257
+Itinerary 2: 1 flight(s), 299 minutes
+ID: 3272 Day: 5 Carrier: AA Number: 260 Origin: Seattle WA Dest: New York NY Duration: 299 Capacity: 8 Price: 613
+Itinerary 3: 1 flight(s), 300 minutes
+ID: 75553 Day: 5 Carrier: B6 Number: 86 Origin: Seattle WA Dest: New York NY Duration: 300 Capacity: 12 Price: 305
+Itinerary 4: 1 flight(s), 305 minutes
+ID: 753229 Day: 5 Carrier: DL Number: 1109 Origin: Seattle WA Dest: New York NY Duration: 305 Capacity: 6 Price: 561
+Goodbye
+*

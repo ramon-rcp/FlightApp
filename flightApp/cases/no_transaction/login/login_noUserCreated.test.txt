@@ -1,0 +1,11 @@
+# Verify you can't log in as a non-existent user
+
+# commands:
+login user1 user1
+quit
+*
+
+#expected output
+Login failed
+Goodbye
+*
